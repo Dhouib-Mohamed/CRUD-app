@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
-import { message, Form } from 'antd';
+import {useEffect, useState} from 'react';
+import {Form, message} from 'antd';
 import ProductTable from './components/ProductTable';
-import { createItem, deleteItem, fetchData, updateItem } from './utils.ts';
+import {createItem, deleteItem, fetchData, updateItem} from './utils.ts';
 import FilterForm from './components/FilterForm.tsx';
 import CreateItemModal from './components/modals/CreateProduct.tsx';
 import Product from './components/modals/Product.tsx';
@@ -40,7 +40,7 @@ const CrudPage = () => {
         setLoading(false);
     };
 
-    const handleTableChange = (pagination, _, sort) => {
+    const handleTableChange = (_, __, sort) => {
         setFilterOptions((prevOptions) => ({
             ...prevOptions,
             sort: {

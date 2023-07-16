@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:3000/crud/';
+const API = import.meta.env.VITE_BASE_BACKEND_URL
 
 export const fetchData = async (filterOptions, pagination) => {
     try {
