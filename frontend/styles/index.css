@@ -1,0 +1,63 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 60px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.filter-form {
+    margin-bottom: 20px;
+}
+
+.product-table {
+    width: 100%;
+}
+
+/* Additional styles for other components as needed */
+
+/* Example styles for FilterForm */
+.filter-form input {
+    width: 200px;
+    margin-right: 8px;
+}
+
+.filter-form .ant-input-number {
+    width: 120px;
+    margin-right: 8px;
+}
+
+.filter-form .ant-btn {
+    margin-right: 8px;
+}
+
+/* Example styles for ProductTable */
+.product-table table {
+    width: 100%;
+}
+
+.product-table .ant-table-thead th {
+    background-color: #f0f0f0;
+}
+
+.product-table .ant-table-tbody td {
+    padding: 8px;
+}
+
+.product-table .ant-table-tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-table .ant-table-row-selected {
+    background-color: #e6f7ff;
+}
+
+/* Example styles for modals */
+.modal {
+    /* Modal styles */
+}
+
+/* Additional styles as needed */
